@@ -1,0 +1,2 @@
+verilog work "ipcore_dir/ROM_B.v"
+verilog work "test.v"

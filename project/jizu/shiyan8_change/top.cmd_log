@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/file2/shiyan8_change/top.xst" -ofn "D:/file2/shiyan8_change/top.syr" 

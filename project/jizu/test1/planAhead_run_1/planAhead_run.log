@@ -1,0 +1,25 @@
+
+****** PlanAhead v14.6 (64-bit)
+  **** Build 269223 by xbuild on Wed Jun  5 11:14:03 MDT 2013
+    ** Copyright 1986-1999, 2001-2012 Xilinx, Inc. All Rights Reserved.
+
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from D:/ISE/14.6/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [D:/ISE/14.6/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [D:/ISE/14.6/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source D:/ISE/project/jizu/test1/pa.fromHdl.tcl
+# create_project -name test1 -dir "D:/ISE/project/jizu/test1/planAhead_run_1" -part xc6slx16csg324-3
+create_project: Time (s): elapsed = 00:00:07 . Memory (MB): peak = 422.078 ; gain = 51.367
+# set_param project.pinAheadLayout yes
+# set srcset [get_property srcset [current_run -impl]]
+# set_property target_constrs_file "test1_C.ucf" [current_fileset -constrset]
+Adding file 'D:/ISE/project/jizu/test1/test1_C.ucf' to fileset 'constrs_1'
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+INFO: [Common 17-344] 'add_files' was cancelled
+INFO: [Common 17-344] 'source' was cancelled
+exit
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Fri Mar 25 18:57:28 2016...
+INFO: [Common 17-83] Releasing license: PlanAhead

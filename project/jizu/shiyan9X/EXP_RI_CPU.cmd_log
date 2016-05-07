@@ -1,0 +1,67 @@
+xst -intstyle ise -ifn "C:/shiyan9/EXP_RI_CPU.xst" -ofn "C:/shiyan9/EXP_RI_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc6slx16-csg324-3 EXP_RI_CPU.ngc EXP_RI_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o EXP_RI_CPU_map.ncd EXP_RI_CPU.ngd EXP_RI_CPU.pcf 
+par -w -intstyle ise -ol high -mt off EXP_RI_CPU_map.ncd EXP_RI_CPU.ncd EXP_RI_CPU.pcf 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc6slx16-csg324-3 EXP_RI_CPU.ngc EXP_RI_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o EXP_RI_CPU_map.ncd EXP_RI_CPU.ngd EXP_RI_CPU.pcf 
+par -w -intstyle ise -ol high -mt off EXP_RI_CPU_map.ncd EXP_RI_CPU.ncd EXP_RI_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml EXP_RI_CPU.twx EXP_RI_CPU.ncd -o EXP_RI_CPU.twr EXP_RI_CPU.pcf 
+bitgen -intstyle ise -f EXP_RI_CPU.ut EXP_RI_CPU.ncd 
+xst -intstyle ise -ifn "C:/shiyan9/EXP_RI_CPU.xst" -ofn "C:/shiyan9/EXP_RI_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc EXP_RI_CPU.ucf -p xc6slx16-csg324-3 EXP_RI_CPU.ngc EXP_RI_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o EXP_RI_CPU_map.ncd EXP_RI_CPU.ngd EXP_RI_CPU.pcf 
+par -w -intstyle ise -ol high -mt off EXP_RI_CPU_map.ncd EXP_RI_CPU.ncd EXP_RI_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml EXP_RI_CPU.twx EXP_RI_CPU.ncd -o EXP_RI_CPU.twr EXP_RI_CPU.pcf -ucf EXP_RI_CPU.ucf 
+xst -intstyle ise -ifn "C:/shiyan9/EXP_RI_CPU.xst" -ofn "C:/shiyan9/EXP_RI_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc EXP_RI_CPU.ucf -p xc6slx16-csg324-3 EXP_RI_CPU.ngc EXP_RI_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o EXP_RI_CPU_map.ncd EXP_RI_CPU.ngd EXP_RI_CPU.pcf 
+par -w -intstyle ise -ol high -mt off EXP_RI_CPU_map.ncd EXP_RI_CPU.ncd EXP_RI_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml EXP_RI_CPU.twx EXP_RI_CPU.ncd -o EXP_RI_CPU.twr EXP_RI_CPU.pcf -ucf EXP_RI_CPU.ucf 
+bitgen -intstyle ise -f EXP_RI_CPU.ut EXP_RI_CPU.ncd 
+xst -intstyle ise -ifn "C:/shiyan9/EXP_RI_CPU.xst" -ofn "C:/shiyan9/EXP_RI_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc EXP_RI_CPU.ucf -p xc6slx16-csg324-3 EXP_RI_CPU.ngc EXP_RI_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o EXP_RI_CPU_map.ncd EXP_RI_CPU.ngd EXP_RI_CPU.pcf 
+par -w -intstyle ise -ol high -mt off EXP_RI_CPU_map.ncd EXP_RI_CPU.ncd EXP_RI_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml EXP_RI_CPU.twx EXP_RI_CPU.ncd -o EXP_RI_CPU.twr EXP_RI_CPU.pcf -ucf EXP_RI_CPU.ucf 
+bitgen -intstyle ise -f EXP_RI_CPU.ut EXP_RI_CPU.ncd 
+bitgen -intstyle ise -f EXP_RI_CPU.ut EXP_RI_CPU.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc EXP_RI_CPU.ucf -p xc6slx16-csg324-3 EXP_RI_CPU.ngc EXP_RI_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o EXP_RI_CPU_map.ncd EXP_RI_CPU.ngd EXP_RI_CPU.pcf 
+xst -intstyle ise -ifn "C:/shiyan9/EXP_RI_CPU.xst" -ofn "C:/shiyan9/EXP_RI_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc EXP_RI_CPU.ucf -p xc6slx16-csg324-3 EXP_RI_CPU.ngc EXP_RI_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o EXP_RI_CPU_map.ncd EXP_RI_CPU.ngd EXP_RI_CPU.pcf 
+par -w -intstyle ise -ol high -mt off EXP_RI_CPU_map.ncd EXP_RI_CPU.ncd EXP_RI_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml EXP_RI_CPU.twx EXP_RI_CPU.ncd -o EXP_RI_CPU.twr EXP_RI_CPU.pcf -ucf EXP_RI_CPU.ucf 
+bitgen -intstyle ise -f EXP_RI_CPU.ut EXP_RI_CPU.ncd 
+xst -intstyle ise -ifn "C:/shiyan9/EXP_RI_CPU.xst" -ofn "C:/shiyan9/EXP_RI_CPU.syr" 
+xst -intstyle ise -ifn "C:/shiyan9/EXP_RI_CPU.xst" -ofn "C:/shiyan9/EXP_RI_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc EXP_RI_CPU.ucf -p xc6slx16-csg324-3 EXP_RI_CPU.ngc EXP_RI_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o EXP_RI_CPU_map.ncd EXP_RI_CPU.ngd EXP_RI_CPU.pcf 
+par -w -intstyle ise -ol high -mt off EXP_RI_CPU_map.ncd EXP_RI_CPU.ncd EXP_RI_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml EXP_RI_CPU.twx EXP_RI_CPU.ncd -o EXP_RI_CPU.twr EXP_RI_CPU.pcf -ucf EXP_RI_CPU.ucf 
+bitgen -intstyle ise -f EXP_RI_CPU.ut EXP_RI_CPU.ncd 
+xst -intstyle ise -ifn "C:/shiyan9/EXP_RI_CPU.xst" -ofn "C:/shiyan9/EXP_RI_CPU.syr" 
+xst -intstyle ise -ifn "C:/shiyan9/EXP_RI_CPU.xst" -ofn "C:/shiyan9/EXP_RI_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc EXP_RI_CPU.ucf -p xc6slx16-csg324-3 EXP_RI_CPU.ngc EXP_RI_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o EXP_RI_CPU_map.ncd EXP_RI_CPU.ngd EXP_RI_CPU.pcf 
+par -w -intstyle ise -ol high -mt off EXP_RI_CPU_map.ncd EXP_RI_CPU.ncd EXP_RI_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml EXP_RI_CPU.twx EXP_RI_CPU.ncd -o EXP_RI_CPU.twr EXP_RI_CPU.pcf -ucf EXP_RI_CPU.ucf 
+bitgen -intstyle ise -f EXP_RI_CPU.ut EXP_RI_CPU.ncd 
+xst -intstyle ise -ifn "C:/shiyan9/EXP_RI_CPU.xst" -ofn "C:/shiyan9/EXP_RI_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc EXP_RI_CPU.ucf -p xc6slx16-csg324-3 EXP_RI_CPU.ngc EXP_RI_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o EXP_RI_CPU_map.ncd EXP_RI_CPU.ngd EXP_RI_CPU.pcf 
+par -w -intstyle ise -ol high -mt off EXP_RI_CPU_map.ncd EXP_RI_CPU.ncd EXP_RI_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml EXP_RI_CPU.twx EXP_RI_CPU.ncd -o EXP_RI_CPU.twr EXP_RI_CPU.pcf -ucf EXP_RI_CPU.ucf 
+bitgen -intstyle ise -f EXP_RI_CPU.ut EXP_RI_CPU.ncd 
+xst -intstyle ise -ifn "C:/shiyan9/EXP_RI_CPU.xst" -ofn "C:/shiyan9/EXP_RI_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc EXP_RI_CPU.ucf -p xc6slx16-csg324-3 EXP_RI_CPU.ngc EXP_RI_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o EXP_RI_CPU_map.ncd EXP_RI_CPU.ngd EXP_RI_CPU.pcf 
+par -w -intstyle ise -ol high -mt off EXP_RI_CPU_map.ncd EXP_RI_CPU.ncd EXP_RI_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml EXP_RI_CPU.twx EXP_RI_CPU.ncd -o EXP_RI_CPU.twr EXP_RI_CPU.pcf -ucf EXP_RI_CPU.ucf 
+bitgen -intstyle ise -f EXP_RI_CPU.ut EXP_RI_CPU.ncd 
+xst -intstyle ise -ifn "C:/shiyan9/EXP_RI_CPU.xst" -ofn "C:/shiyan9/EXP_RI_CPU.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc EXP_RI_CPU.ucf -p xc6slx16-csg324-3 EXP_RI_CPU.ngc EXP_RI_CPU.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o EXP_RI_CPU_map.ncd EXP_RI_CPU.ngd EXP_RI_CPU.pcf 
+par -w -intstyle ise -ol high -mt off EXP_RI_CPU_map.ncd EXP_RI_CPU.ncd EXP_RI_CPU.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml EXP_RI_CPU.twx EXP_RI_CPU.ncd -o EXP_RI_CPU.twr EXP_RI_CPU.pcf -ucf EXP_RI_CPU.ucf 
+bitgen -intstyle ise -f EXP_RI_CPU.ut EXP_RI_CPU.ncd 

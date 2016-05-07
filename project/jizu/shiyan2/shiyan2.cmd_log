@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/file2/shiyan2/shiyan2.xst" -ofn "D:/file2/shiyan2/shiyan2.syr" 

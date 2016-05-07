@@ -1,0 +1,42 @@
+xst -intstyle ise -ifn "D:/file2/shiyan3/shiyan3.xst" -ofn "D:/file2/shiyan3/shiyan3.syr" 
+xst -intstyle ise -ifn "D:/file2/shiyan3/shiyan3.xst" -ofn "D:/file2/shiyan3/shiyan3.syr" 
+xst -intstyle ise -ifn "D:/file2/shiyan3/shiyan3.xst" -ofn "D:/file2/shiyan3/shiyan3.syr" 
+xst -intstyle ise -ifn "D:/file2/shiyan3/shiyan3.xst" -ofn "D:/file2/shiyan3/shiyan3.syr" 
+xst -intstyle ise -ifn "D:/file2/shiyan3/shiyan3.xst" -ofn "D:/file2/shiyan3/shiyan3.syr" 
+xst -intstyle ise -ifn "D:/file2/shiyan3/shiyan3.xst" -ofn "D:/file2/shiyan3/shiyan3.syr" 
+xst -intstyle ise -ifn "D:/file2/shiyan3/shiyan3.xst" -ofn "D:/file2/shiyan3/shiyan3.syr" 
+xst -intstyle ise -ifn "D:/file2/shiyan3/shiyan3.xst" -ofn "D:/file2/shiyan3/shiyan3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 shiyan3.ngc shiyan3.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o shiyan3_map.ncd shiyan3.ngd shiyan3.pcf 
+par -w -intstyle ise -ol high -mt off shiyan3_map.ncd shiyan3.ncd shiyan3.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml shiyan3.twx shiyan3.ncd -o shiyan3.twr shiyan3.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 shiyan3.ngc shiyan3.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o shiyan3_map.ncd shiyan3.ngd shiyan3.pcf 
+par -w -intstyle ise -ol high -mt off shiyan3_map.ncd shiyan3.ncd shiyan3.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml shiyan3.twx shiyan3.ncd -o shiyan3.twr shiyan3.pcf 
+bitgen -intstyle ise -f shiyan3.ut shiyan3.ncd 
+xst -intstyle ise -ifn "D:/file2/shiyan3/shiyan3.xst" -ofn "D:/file2/shiyan3/shiyan3.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim shiyan3.ngc shiyan3_synthesis.v 
+xst -intstyle ise -ifn "D:/file2/shiyan3/shiyan3.xst" -ofn "D:/file2/shiyan3/shiyan3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc shiyan3_m.ucf -p xc6slx16-csg324-3 shiyan3.ngc shiyan3.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o shiyan3_map.ncd shiyan3.ngd shiyan3.pcf 
+par -w -intstyle ise -ol high -mt off shiyan3_map.ncd shiyan3.ncd shiyan3.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml shiyan3.twx shiyan3.ncd -o shiyan3.twr shiyan3.pcf -ucf shiyan3_m.ucf 
+bitgen -intstyle ise -f shiyan3.ut shiyan3.ncd 
+xst -intstyle ise -ifn "D:/file2/shiyan3/shiyan3.xst" -ofn "D:/file2/shiyan3/shiyan3.syr" 
+xst -intstyle ise -ifn "C:/Users/yyp/Desktop/shiyan3/shiyan3.xst" -ofn "C:/Users/yyp/Desktop/shiyan3/shiyan3.syr" 
+xst -intstyle ise -ifn "C:/Users/yyp/Desktop/shiyan3/shiyan3.xst" -ofn "C:/Users/yyp/Desktop/shiyan3/shiyan3.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim shiyan3.ngc shiyan3_synthesis.v 
+xst -intstyle ise -ifn "D:/ISE/project/jizu/shiyan3/shiyan3.xst" -ofn "D:/ISE/project/jizu/shiyan3/shiyan3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc shiyan3_m.ucf -p xc6slx16-csg324-3 shiyan3.ngc shiyan3.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o shiyan3_map.ncd shiyan3.ngd shiyan3.pcf 
+par -w -intstyle ise -ol high -mt off shiyan3_map.ncd shiyan3.ncd shiyan3.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml shiyan3.twx shiyan3.ncd -o shiyan3.twr shiyan3.pcf -ucf shiyan3_m.ucf 
+bitgen -intstyle ise -f shiyan3.ut shiyan3.ncd 
+xst -intstyle ise -ifn "D:/ISE/project/jizu/shiyan3/shiyan3.xst" -ofn "D:/ISE/project/jizu/shiyan3/shiyan3.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim shiyan3.ngc shiyan3_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc shiyan3_m.ucf -p xc6slx16-csg324-3 shiyan3.ngc shiyan3.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o shiyan3_map.ncd shiyan3.ngd shiyan3.pcf 
+par -w -intstyle ise -ol high -mt off shiyan3_map.ncd shiyan3.ncd shiyan3.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml shiyan3.twx shiyan3.ncd -o shiyan3.twr shiyan3.pcf -ucf shiyan3_m.ucf 
+bitgen -intstyle ise -f shiyan3.ut shiyan3.ncd 

@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\ISE\project\demo10\demo10.ncd
+OUTFILE=D:\ISE\project\demo10\demo10.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=D:\ISE\project\demo10
+LICENSE=WebPack
+USER_INFO=__0_0_0

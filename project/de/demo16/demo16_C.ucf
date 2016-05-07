@@ -1,0 +1,5 @@
+NET"sw[1]" 		LOC="T10";
+NET"sw[0]" 		LOC="T9";
+NET"clk" 		LOC="V10";
+NET"rst" 		LOC="C9";
+NET"clk_out" 	LOC="U16";

@@ -1,0 +1,4 @@
+verilog work "ipcore_dir/RAM_B.v"
+verilog work "Top_Module.v"
+verilog work "test_5.v"
+verilog work "D:/ISE/14.6/ISE_DS/ISE//verilog/src/glbl.v"

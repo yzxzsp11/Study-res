@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\Xilinx\Decoder\Decoder.ncd
+OUTFILE=D:\Xilinx\Decoder\Decoder.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=D:\Xilinx\Decoder
+LICENSE=ISE
+USER_INFO=135256_15690819_173552794_661

@@ -1,0 +1,35 @@
+#-----------------------------------------------------------
+# PlanAhead v14.6 (64-bit)
+# Build 269223 by xbuild on Wed Jun  5 11:14:03 MDT 2013
+# Start of session at: Wed Nov 18 11:37:32 2015
+# Process ID: 17884
+# Log file: D:/ISE/project/demo01/planAhead_run_1/planAhead.log
+# Journal file: D:/ISE/project/demo01/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source D:/ISE/project/demo01/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+set_property package_pin "" [get_ports [list  A]]
+set_property package_pin "" [get_ports [list  A]]
+startgroup
+set_property package_pin A2 [get_ports A]
+endgroup
+startgroup
+set_property package_pin A3 [get_ports B]
+endgroup
+startgroup
+set_property package_pin A4 [get_ports C]
+endgroup
+startgroup
+set_property package_pin A5 [get_ports D]
+endgroup
+startgroup
+set_property package_pin A6 [get_ports E]
+endgroup
+save_constraints
+startgroup
+set_property package_pin T11 [get_ports F]
+endgroup
+set_property is_loc_fixed false [get_ports [list  F]]
+set_property is_loc_fixed true [get_ports [list  F]]
+save_constraints

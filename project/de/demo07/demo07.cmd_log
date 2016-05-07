@@ -1,0 +1,12 @@
+xst -intstyle ise -ifn "D:/ISE/project/demo07/demo07.xst" -ofn "D:/ISE/project/demo07/demo07.syr" 
+xst -intstyle ise -ifn "D:/ISE/project/demo07/demo07.xst" -ofn "D:/ISE/project/demo07/demo07.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc demo07_C.ucf -p xc6slx16-csg324-3 demo07.ngc demo07.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o demo07_map.ncd demo07.ngd demo07.pcf 
+par -w -intstyle ise -ol high -mt off demo07_map.ncd demo07.ncd demo07.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml demo07.twx demo07.ncd -o demo07.twr demo07.pcf -ucf demo07_C.ucf 
+bitgen -intstyle ise -f demo07.ut demo07.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc demo07_C.ucf -p xc6slx16-csg324-3 demo07.ngc demo07.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o demo07_map.ncd demo07.ngd demo07.pcf 
+par -w -intstyle ise -ol high -mt off demo07_map.ncd demo07.ncd demo07.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml demo07.twx demo07.ncd -o demo07.twr demo07.pcf -ucf demo07_C.ucf 
+bitgen -intstyle ise -f demo07.ut demo07.ncd 

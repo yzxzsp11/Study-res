@@ -1,0 +1,14 @@
+NET"X[0]" LOC="T10";
+NET"X[1]" LOC="T9";
+NET"X[2]" LOC="V9";
+NET"X[3]" LOC="M8";
+NET"Y[0]" LOC="N8";
+NET"Y[1]" LOC="U8";
+NET"Y[2]" LOC="V8";
+NET"Y[3]" LOC="T5";
+NET"Cin" LOC="B8";
+NET"Sum[0]" LOC="U16";
+NET"Sum[1]" LOC="V16";
+NET"Sum[2]" LOC="U15";
+NET"Sum[3]" LOC="V15";
+NET"Cout" LOC="T11";

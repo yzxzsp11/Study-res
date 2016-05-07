@@ -1,0 +1,27 @@
+xst -intstyle ise -ifn "D:/work/ISE/RegisterFile4/Test_RigisterFile.xst" -ofn "D:/work/ISE/RegisterFile4/Test_RigisterFile.syr" 
+xst -intstyle ise -ifn "D:/work/ISE/RegisterFile4/Test_RigisterFile.xst" -ofn "D:/work/ISE/RegisterFile4/Test_RigisterFile.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Test_RigisterFile.ucf -p xc6slx16-csg324-3 Test_RigisterFile.ngc Test_RigisterFile.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Test_RigisterFile.ucf -p xc6slx16-csg324-3 Test_RigisterFile.ngc Test_RigisterFile.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Test_RigisterFile.ucf -p xc6slx16-csg324-3 Test_RigisterFile.ngc Test_RigisterFile.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Test_RigisterFile.ucf -p xc6slx16-csg324-3 Test_RigisterFile.ngc Test_RigisterFile.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Test_RigisterFile_map.ncd Test_RigisterFile.ngd Test_RigisterFile.pcf 
+par -w -intstyle ise -ol high -mt off Test_RigisterFile_map.ncd Test_RigisterFile.ncd Test_RigisterFile.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Test_RigisterFile.twx Test_RigisterFile.ncd -o Test_RigisterFile.twr Test_RigisterFile.pcf -ucf Test_RigisterFile.ucf 
+bitgen -intstyle ise -f Test_RigisterFile.ut Test_RigisterFile.ncd 
+xst -intstyle ise -ifn "D:/work/ISE/RegisterFile4/Test_RigisterFile.xst" -ofn "D:/work/ISE/RegisterFile4/Test_RigisterFile.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Test_RigisterFile.ucf -p xc6slx16-csg324-3 Test_RigisterFile.ngc Test_RigisterFile.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Test_RigisterFile_map.ncd Test_RigisterFile.ngd Test_RigisterFile.pcf 
+par -w -intstyle ise -ol high -mt off Test_RigisterFile_map.ncd Test_RigisterFile.ncd Test_RigisterFile.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Test_RigisterFile.twx Test_RigisterFile.ncd -o Test_RigisterFile.twr Test_RigisterFile.pcf -ucf Test_RigisterFile.ucf 
+bitgen -intstyle ise -f Test_RigisterFile.ut Test_RigisterFile.ncd 
+xst -intstyle ise -ifn "D:/work/ISE/RegisterFile4/Test_RigisterFile.xst" -ofn "D:/work/ISE/RegisterFile4/Test_RigisterFile.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Test_RigisterFile.ucf -p xc6slx16-csg324-3 Test_RigisterFile.ngc Test_RigisterFile.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Test_RigisterFile_map.ncd Test_RigisterFile.ngd Test_RigisterFile.pcf 
+par -w -intstyle ise -ol high -mt off Test_RigisterFile_map.ncd Test_RigisterFile.ncd Test_RigisterFile.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Test_RigisterFile.twx Test_RigisterFile.ncd -o Test_RigisterFile.twr Test_RigisterFile.pcf -ucf Test_RigisterFile.ucf 
+bitgen -intstyle ise -f Test_RigisterFile.ut Test_RigisterFile.ncd 
+xst -intstyle ise -ifn "D:/work/ISE/RegisterFile4/Test_RigisterFile.xst" -ofn "D:/work/ISE/RegisterFile4/Test_RigisterFile.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Test_RigisterFile.ucf -p xc6slx16-csg324-3 Test_RigisterFile.ngc Test_RigisterFile.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Test_RigisterFile_map.ncd Test_RigisterFile.ngd Test_RigisterFile.pcf 
+par -w -intstyle ise -ol high -mt off Test_RigisterFile_map.ncd Test_RigisterFile.ncd Test_RigisterFile.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Test_RigisterFile.twx Test_RigisterFile.ncd -o Test_RigisterFile.twr Test_RigisterFile.pcf -ucf Test_RigisterFile.ucf 

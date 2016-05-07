@@ -1,0 +1,11 @@
+//! **************************************************************************
+// Written by: Map P.68d on Wed Dec 09 19:32:42 2015
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "Qn" LOCATE = SITE "R11" LEVEL 1;
+COMP "Q" LOCATE = SITE "T11" LEVEL 1;
+COMP "R" LOCATE = SITE "T5" LEVEL 1;
+COMP "S" LOCATE = SITE "V8" LEVEL 1;
+SCHEMATIC END;
+

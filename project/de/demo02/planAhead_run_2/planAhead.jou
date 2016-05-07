@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# PlanAhead v14.6 (64-bit)
+# Build 269223 by xbuild on Wed Jun  5 11:14:03 MDT 2013
+# Start of session at: Wed Nov 25 18:15:41 2015
+# Process ID: 4020
+# Log file: D:/ISE/project/demo02/planAhead_run_2/planAhead.log
+# Journal file: D:/ISE/project/demo02/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source D:/ISE/project/demo02/pa.fromHdl.tcl

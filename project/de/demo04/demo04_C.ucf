@@ -1,0 +1,13 @@
+NET "EN"			LOC="A8";
+NET "In[7]"		LOC="T5";
+NET "In[6]"		LOC="V8";
+NET "In[5]"		LOC="U8";
+NET "In[4]"		LOC="N8";
+NET "In[3]"		LOC="M8";
+NET "In[2]"		LOC="V9";
+NET "In[1]"		LOC="T9";
+NET "In[0]"		LOC="T10";
+NET "Y[2]"		LOC="T11";
+NET "Y[1]"		LOC="R11";
+NET "Y[0]"		LOC="N11";
+NET "Done"		LOC="M11";

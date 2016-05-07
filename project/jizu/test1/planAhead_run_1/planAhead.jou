@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# PlanAhead v14.6 (64-bit)
+# Build 269223 by xbuild on Wed Jun  5 11:14:03 MDT 2013
+# Start of session at: Fri Mar 25 18:56:26 2016
+# Process ID: 8288
+# Log file: D:/ISE/project/jizu/test1/planAhead_run_1/planAhead.log
+# Journal file: D:/ISE/project/jizu/test1/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source D:/ISE/project/jizu/test1/pa.fromHdl.tcl

@@ -1,0 +1,8 @@
+verilog isim_temp "jicunqi.v"
+verilog isim_temp "ipcore_dir/ROM_B.v"
+verilog isim_temp "ALU.v"
+verilog isim_temp "test.v"
+verilog isim_temp "CPU.v"
+verilog isim_temp "top.v"
+verilog isim_temp "top_test.v"
+verilog isim_temp "D:/Xilinx/14.6/ISE_DS/ISE//verilog/src/glbl.v"

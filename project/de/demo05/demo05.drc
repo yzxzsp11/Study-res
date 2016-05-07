@@ -1,0 +1,8 @@
+Release 14.6 Drc P.68d (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Mon Nov 30 21:27:51 2015
+
+drc -z demo05.ncd demo05.pcf
+
+DRC detected 0 errors and 0 warnings.

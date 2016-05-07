@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "D:/file2/shiyan9/top.xst" -ofn "D:/file2/shiyan9/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc6slx16-csg324-3 top.ngc top.ngd  

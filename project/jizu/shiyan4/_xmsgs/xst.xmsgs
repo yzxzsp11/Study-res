@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="info" file="Xst" num="3218" delta="new" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram__n11448</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_17_29</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_17_24&gt; &lt;REG_Files_17_17&gt; &lt;REG_Files_17_13&gt; &lt;REG_Files_17_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_23_29</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_23_24&gt; &lt;REG_Files_23_17&gt; &lt;REG_Files_23_13&gt; &lt;REG_Files_23_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_2_25</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_2_21&gt; &lt;REG_Files_2_20&gt; &lt;REG_Files_2_9&gt; &lt;REG_Files_2_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_31_30</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">11 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_31_26&gt; &lt;REG_Files_31_27&gt; &lt;REG_Files_31_23&gt; &lt;REG_Files_31_22&gt; &lt;REG_Files_31_19&gt; &lt;REG_Files_31_15&gt; &lt;REG_Files_31_11&gt; &lt;REG_Files_31_8&gt; &lt;REG_Files_31_7&gt; &lt;REG_Files_31_2&gt; &lt;REG_Files_31_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_17_25</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_17_21&gt; &lt;REG_Files_17_20&gt; &lt;REG_Files_17_9&gt; &lt;REG_Files_17_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_23_25</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_23_21&gt; &lt;REG_Files_23_20&gt; &lt;REG_Files_23_9&gt; &lt;REG_Files_23_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_2_18</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">6 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_2_14&gt; &lt;REG_Files_2_12&gt; &lt;REG_Files_2_10&gt; &lt;REG_Files_2_6&gt; &lt;REG_Files_2_4&gt; &lt;REG_Files_2_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_31_29</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_31_24&gt; &lt;REG_Files_31_17&gt; &lt;REG_Files_31_13&gt; &lt;REG_Files_31_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_17_18</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">6 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_17_14&gt; &lt;REG_Files_17_12&gt; &lt;REG_Files_17_10&gt; &lt;REG_Files_17_6&gt; &lt;REG_Files_17_4&gt; &lt;REG_Files_17_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_23_18</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">6 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_23_14&gt; &lt;REG_Files_23_12&gt; &lt;REG_Files_23_10&gt; &lt;REG_Files_23_4&gt; &lt;REG_Files_23_6&gt; &lt;REG_Files_23_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_31_25</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_31_21&gt; &lt;REG_Files_31_20&gt; &lt;REG_Files_31_9&gt; &lt;REG_Files_31_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_31_18</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">6 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_31_14&gt; &lt;REG_Files_31_12&gt; &lt;REG_Files_31_10&gt; &lt;REG_Files_31_6&gt; &lt;REG_Files_31_4&gt; &lt;REG_Files_31_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_1_30</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">11 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_1_27&gt; &lt;REG_Files_1_26&gt; &lt;REG_Files_1_23&gt; &lt;REG_Files_1_22&gt; &lt;REG_Files_1_19&gt; &lt;REG_Files_1_15&gt; &lt;REG_Files_1_11&gt; &lt;REG_Files_1_8&gt; &lt;REG_Files_1_7&gt; &lt;REG_Files_1_0&gt; &lt;REG_Files_1_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_15_30</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">11 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_15_27&gt; &lt;REG_Files_15_26&gt; &lt;REG_Files_15_23&gt; &lt;REG_Files_15_22&gt; &lt;REG_Files_15_19&gt; &lt;REG_Files_15_15&gt; &lt;REG_Files_15_11&gt; &lt;REG_Files_15_8&gt; &lt;REG_Files_15_7&gt; &lt;REG_Files_15_2&gt; &lt;REG_Files_15_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_29_30</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">11 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_29_27&gt; &lt;REG_Files_29_26&gt; &lt;REG_Files_29_23&gt; &lt;REG_Files_29_22&gt; &lt;REG_Files_29_19&gt; &lt;REG_Files_29_15&gt; &lt;REG_Files_29_11&gt; &lt;REG_Files_29_8&gt; &lt;REG_Files_29_7&gt; &lt;REG_Files_29_2&gt; &lt;REG_Files_29_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_16_30</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">11 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_16_27&gt; &lt;REG_Files_16_26&gt; &lt;REG_Files_16_23&gt; &lt;REG_Files_16_22&gt; &lt;REG_Files_16_19&gt; &lt;REG_Files_16_15&gt; &lt;REG_Files_16_11&gt; &lt;REG_Files_16_8&gt; &lt;REG_Files_16_7&gt; &lt;REG_Files_16_2&gt; &lt;REG_Files_16_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_1_29</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_1_24&gt; &lt;REG_Files_1_17&gt; &lt;REG_Files_1_13&gt; &lt;REG_Files_1_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_15_29</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_15_24&gt; &lt;REG_Files_15_17&gt; &lt;REG_Files_15_13&gt; &lt;REG_Files_15_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_29_29</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_29_24&gt; &lt;REG_Files_29_17&gt; &lt;REG_Files_29_13&gt; &lt;REG_Files_29_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_16_29</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_16_24&gt; &lt;REG_Files_16_17&gt; &lt;REG_Files_16_13&gt; &lt;REG_Files_16_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_21_30</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">11 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_21_27&gt; &lt;REG_Files_21_26&gt; &lt;REG_Files_21_23&gt; &lt;REG_Files_21_22&gt; &lt;REG_Files_21_19&gt; &lt;REG_Files_21_15&gt; &lt;REG_Files_21_11&gt; &lt;REG_Files_21_8&gt; &lt;REG_Files_21_7&gt; &lt;REG_Files_21_2&gt; &lt;REG_Files_21_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_1_25</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_1_21&gt; &lt;REG_Files_1_20&gt; &lt;REG_Files_1_9&gt; &lt;REG_Files_1_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_15_25</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_15_21&gt; &lt;REG_Files_15_20&gt; &lt;REG_Files_15_9&gt; &lt;REG_Files_15_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_29_25</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_29_21&gt; &lt;REG_Files_29_20&gt; &lt;REG_Files_29_9&gt; &lt;REG_Files_29_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_16_25</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_16_21&gt; &lt;REG_Files_16_20&gt; &lt;REG_Files_16_9&gt; &lt;REG_Files_16_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_21_29</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_21_24&gt; &lt;REG_Files_21_17&gt; &lt;REG_Files_21_13&gt; &lt;REG_Files_21_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_1_18</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">6 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_1_14&gt; &lt;REG_Files_1_12&gt; &lt;REG_Files_1_10&gt; &lt;REG_Files_1_6&gt; &lt;REG_Files_1_4&gt; &lt;REG_Files_1_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_15_18</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">6 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_15_12&gt; &lt;REG_Files_15_14&gt; &lt;REG_Files_15_10&gt; &lt;REG_Files_15_6&gt; &lt;REG_Files_15_4&gt; &lt;REG_Files_15_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_29_18</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">6 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_29_14&gt; &lt;REG_Files_29_12&gt; &lt;REG_Files_29_10&gt; &lt;REG_Files_29_6&gt; &lt;REG_Files_29_4&gt; &lt;REG_Files_29_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_16_18</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">6 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_16_14&gt; &lt;REG_Files_16_12&gt; &lt;REG_Files_16_10&gt; &lt;REG_Files_16_6&gt; &lt;REG_Files_16_4&gt; &lt;REG_Files_16_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_21_25</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_21_21&gt; &lt;REG_Files_21_20&gt; &lt;REG_Files_21_9&gt; &lt;REG_Files_21_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_21_18</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">6 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_21_14&gt; &lt;REG_Files_21_12&gt; &lt;REG_Files_21_10&gt; &lt;REG_Files_21_6&gt; &lt;REG_Files_21_4&gt; &lt;REG_Files_21_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_27_30</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">11 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_27_27&gt; &lt;REG_Files_27_26&gt; &lt;REG_Files_27_22&gt; &lt;REG_Files_27_23&gt; &lt;REG_Files_27_19&gt; &lt;REG_Files_27_15&gt; &lt;REG_Files_27_11&gt; &lt;REG_Files_27_7&gt; &lt;REG_Files_27_8&gt; &lt;REG_Files_27_2&gt; &lt;REG_Files_27_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_27_29</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_27_24&gt; &lt;REG_Files_27_17&gt; &lt;REG_Files_27_13&gt; &lt;REG_Files_27_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_27_25</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_27_21&gt; &lt;REG_Files_27_20&gt; &lt;REG_Files_27_9&gt; &lt;REG_Files_27_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_27_18</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">6 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_27_14&gt; &lt;REG_Files_27_12&gt; &lt;REG_Files_27_10&gt; &lt;REG_Files_27_6&gt; &lt;REG_Files_27_4&gt; &lt;REG_Files_27_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_18_30</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">11 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_18_27&gt; &lt;REG_Files_18_26&gt; &lt;REG_Files_18_23&gt; &lt;REG_Files_18_22&gt; &lt;REG_Files_18_19&gt; &lt;REG_Files_18_15&gt; &lt;REG_Files_18_11&gt; &lt;REG_Files_18_8&gt; &lt;REG_Files_18_7&gt; &lt;REG_Files_18_2&gt; &lt;REG_Files_18_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_19_30</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">11 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_19_27&gt; &lt;REG_Files_19_26&gt; &lt;REG_Files_19_23&gt; &lt;REG_Files_19_22&gt; &lt;REG_Files_19_19&gt; &lt;REG_Files_19_15&gt; &lt;REG_Files_19_11&gt; &lt;REG_Files_19_8&gt; &lt;REG_Files_19_7&gt; &lt;REG_Files_19_0&gt; &lt;REG_Files_19_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_18_29</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_18_24&gt; &lt;REG_Files_18_17&gt; &lt;REG_Files_18_13&gt; &lt;REG_Files_18_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_19_29</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_19_24&gt; &lt;REG_Files_19_17&gt; &lt;REG_Files_19_13&gt; &lt;REG_Files_19_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_10_30</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">11 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_10_27&gt; &lt;REG_Files_10_26&gt; &lt;REG_Files_10_22&gt; &lt;REG_Files_10_23&gt; &lt;REG_Files_10_19&gt; &lt;REG_Files_10_15&gt; &lt;REG_Files_10_11&gt; &lt;REG_Files_10_7&gt; &lt;REG_Files_10_8&gt; &lt;REG_Files_10_2&gt; &lt;REG_Files_10_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_25_30</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">11 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_25_27&gt; &lt;REG_Files_25_26&gt; &lt;REG_Files_25_23&gt; &lt;REG_Files_25_22&gt; &lt;REG_Files_25_19&gt; &lt;REG_Files_25_15&gt; &lt;REG_Files_25_11&gt; &lt;REG_Files_25_8&gt; &lt;REG_Files_25_7&gt; &lt;REG_Files_25_2&gt; &lt;REG_Files_25_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_24_30</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">11 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_24_27&gt; &lt;REG_Files_24_26&gt; &lt;REG_Files_24_23&gt; &lt;REG_Files_24_22&gt; &lt;REG_Files_24_19&gt; &lt;REG_Files_24_15&gt; &lt;REG_Files_24_11&gt; &lt;REG_Files_24_8&gt; &lt;REG_Files_24_7&gt; &lt;REG_Files_24_2&gt; &lt;REG_Files_24_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_11_30</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">11 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_11_27&gt; &lt;REG_Files_11_26&gt; &lt;REG_Files_11_23&gt; &lt;REG_Files_11_22&gt; &lt;REG_Files_11_19&gt; &lt;REG_Files_11_15&gt; &lt;REG_Files_11_11&gt; &lt;REG_Files_11_8&gt; &lt;REG_Files_11_7&gt; &lt;REG_Files_11_2&gt; &lt;REG_Files_11_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_19_25</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_19_21&gt; &lt;REG_Files_19_20&gt; &lt;REG_Files_19_9&gt; &lt;REG_Files_19_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_18_25</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_18_21&gt; &lt;REG_Files_18_20&gt; &lt;REG_Files_18_9&gt; &lt;REG_Files_18_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_10_29</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_10_24&gt; &lt;REG_Files_10_17&gt; &lt;REG_Files_10_13&gt; &lt;REG_Files_10_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_25_29</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_25_24&gt; &lt;REG_Files_25_17&gt; &lt;REG_Files_25_13&gt; &lt;REG_Files_25_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_24_29</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_24_24&gt; &lt;REG_Files_24_17&gt; &lt;REG_Files_24_13&gt; &lt;REG_Files_24_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_11_29</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_11_24&gt; &lt;REG_Files_11_17&gt; &lt;REG_Files_11_13&gt; &lt;REG_Files_11_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_18_18</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">6 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_18_14&gt; &lt;REG_Files_18_12&gt; &lt;REG_Files_18_10&gt; &lt;REG_Files_18_6&gt; &lt;REG_Files_18_4&gt; &lt;REG_Files_18_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_19_18</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">6 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_19_14&gt; &lt;REG_Files_19_12&gt; &lt;REG_Files_19_10&gt; &lt;REG_Files_19_6&gt; &lt;REG_Files_19_4&gt; &lt;REG_Files_19_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_10_25</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_10_21&gt; &lt;REG_Files_10_20&gt; &lt;REG_Files_10_9&gt; &lt;REG_Files_10_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_25_25</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_25_20&gt; &lt;REG_Files_25_21&gt; &lt;REG_Files_25_9&gt; &lt;REG_Files_25_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_24_25</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_24_20&gt; &lt;REG_Files_24_21&gt; &lt;REG_Files_24_9&gt; &lt;REG_Files_24_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_11_25</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_11_21&gt; &lt;REG_Files_11_20&gt; &lt;REG_Files_11_9&gt; &lt;REG_Files_11_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_10_18</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">6 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_10_14&gt; &lt;REG_Files_10_12&gt; &lt;REG_Files_10_10&gt; &lt;REG_Files_10_6&gt; &lt;REG_Files_10_4&gt; &lt;REG_Files_10_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_25_18</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">6 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_25_14&gt; &lt;REG_Files_25_12&gt; &lt;REG_Files_25_10&gt; &lt;REG_Files_25_6&gt; &lt;REG_Files_25_4&gt; &lt;REG_Files_25_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_24_18</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">6 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_24_14&gt; &lt;REG_Files_24_12&gt; &lt;REG_Files_24_10&gt; &lt;REG_Files_24_6&gt; &lt;REG_Files_24_4&gt; &lt;REG_Files_24_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_11_18</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">6 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_11_14&gt; &lt;REG_Files_11_12&gt; &lt;REG_Files_11_10&gt; &lt;REG_Files_11_6&gt; &lt;REG_Files_11_4&gt; &lt;REG_Files_11_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_7_30</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">11 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_7_27&gt; &lt;REG_Files_7_26&gt; &lt;REG_Files_7_23&gt; &lt;REG_Files_7_22&gt; &lt;REG_Files_7_19&gt; &lt;REG_Files_7_15&gt; &lt;REG_Files_7_11&gt; &lt;REG_Files_7_8&gt; &lt;REG_Files_7_7&gt; &lt;REG_Files_7_2&gt; &lt;REG_Files_7_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_22_30</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">11 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_22_27&gt; &lt;REG_Files_22_26&gt; &lt;REG_Files_22_23&gt; &lt;REG_Files_22_22&gt; &lt;REG_Files_22_19&gt; &lt;REG_Files_22_15&gt; &lt;REG_Files_22_11&gt; &lt;REG_Files_22_8&gt; &lt;REG_Files_22_7&gt; &lt;REG_Files_22_2&gt; &lt;REG_Files_22_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_9_30</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">11 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_9_27&gt; &lt;REG_Files_9_26&gt; &lt;REG_Files_9_23&gt; &lt;REG_Files_9_22&gt; &lt;REG_Files_9_19&gt; &lt;REG_Files_9_15&gt; &lt;REG_Files_9_11&gt; &lt;REG_Files_9_8&gt; &lt;REG_Files_9_7&gt; &lt;REG_Files_9_2&gt; &lt;REG_Files_9_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_8_30</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">11 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_8_27&gt; &lt;REG_Files_8_26&gt; &lt;REG_Files_8_23&gt; &lt;REG_Files_8_22&gt; &lt;REG_Files_8_19&gt; &lt;REG_Files_8_15&gt; &lt;REG_Files_8_11&gt; &lt;REG_Files_8_8&gt; &lt;REG_Files_8_7&gt; &lt;REG_Files_8_2&gt; &lt;REG_Files_8_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_30_30</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">11 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_30_27&gt; &lt;REG_Files_30_26&gt; &lt;REG_Files_30_23&gt; &lt;REG_Files_30_22&gt; &lt;REG_Files_30_19&gt; &lt;REG_Files_30_15&gt; &lt;REG_Files_30_11&gt; &lt;REG_Files_30_8&gt; &lt;REG_Files_30_7&gt; &lt;REG_Files_30_2&gt; &lt;REG_Files_30_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_7_29</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_7_24&gt; &lt;REG_Files_7_17&gt; &lt;REG_Files_7_13&gt; &lt;REG_Files_7_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_22_29</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_22_24&gt; &lt;REG_Files_22_17&gt; &lt;REG_Files_22_13&gt; &lt;REG_Files_22_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_9_29</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_9_24&gt; &lt;REG_Files_9_17&gt; &lt;REG_Files_9_13&gt; &lt;REG_Files_9_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_8_29</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_8_24&gt; &lt;REG_Files_8_17&gt; &lt;REG_Files_8_13&gt; &lt;REG_Files_8_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_30_29</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_30_24&gt; &lt;REG_Files_30_17&gt; &lt;REG_Files_30_13&gt; &lt;REG_Files_30_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_7_25</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_7_20&gt; &lt;REG_Files_7_21&gt; &lt;REG_Files_7_9&gt; &lt;REG_Files_7_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_22_25</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_22_21&gt; &lt;REG_Files_22_20&gt; &lt;REG_Files_22_9&gt; &lt;REG_Files_22_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_9_25</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_9_21&gt; &lt;REG_Files_9_20&gt; &lt;REG_Files_9_9&gt; &lt;REG_Files_9_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_8_25</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_8_21&gt; &lt;REG_Files_8_20&gt; &lt;REG_Files_8_9&gt; &lt;REG_Files_8_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_30_25</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_30_21&gt; &lt;REG_Files_30_20&gt; &lt;REG_Files_30_9&gt; &lt;REG_Files_30_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_7_18</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">6 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_7_14&gt; &lt;REG_Files_7_12&gt; &lt;REG_Files_7_10&gt; &lt;REG_Files_7_6&gt; &lt;REG_Files_7_4&gt; &lt;REG_Files_7_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_22_18</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">6 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_22_14&gt; &lt;REG_Files_22_12&gt; &lt;REG_Files_22_10&gt; &lt;REG_Files_22_6&gt; &lt;REG_Files_22_3&gt; &lt;REG_Files_22_4&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_9_18</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">6 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_9_14&gt; &lt;REG_Files_9_12&gt; &lt;REG_Files_9_10&gt; &lt;REG_Files_9_6&gt; &lt;REG_Files_9_4&gt; &lt;REG_Files_9_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_8_18</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">6 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_8_14&gt; &lt;REG_Files_8_12&gt; &lt;REG_Files_8_10&gt; &lt;REG_Files_8_6&gt; &lt;REG_Files_8_4&gt; &lt;REG_Files_8_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_30_18</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">6 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_30_14&gt; &lt;REG_Files_30_10&gt; &lt;REG_Files_30_12&gt; &lt;REG_Files_30_6&gt; &lt;REG_Files_30_4&gt; &lt;REG_Files_30_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_14_30</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">11 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_14_26&gt; &lt;REG_Files_14_27&gt; &lt;REG_Files_14_23&gt; &lt;REG_Files_14_22&gt; &lt;REG_Files_14_19&gt; &lt;REG_Files_14_15&gt; &lt;REG_Files_14_11&gt; &lt;REG_Files_14_8&gt; &lt;REG_Files_14_7&gt; &lt;REG_Files_14_2&gt; &lt;REG_Files_14_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_13_30</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">11 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_13_27&gt; &lt;REG_Files_13_26&gt; &lt;REG_Files_13_23&gt; &lt;REG_Files_13_22&gt; &lt;REG_Files_13_19&gt; &lt;REG_Files_13_15&gt; &lt;REG_Files_13_11&gt; &lt;REG_Files_13_8&gt; &lt;REG_Files_13_7&gt; &lt;REG_Files_13_2&gt; &lt;REG_Files_13_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_13_29</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_13_24&gt; &lt;REG_Files_13_17&gt; &lt;REG_Files_13_13&gt; &lt;REG_Files_13_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_14_29</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_14_24&gt; &lt;REG_Files_14_17&gt; &lt;REG_Files_14_13&gt; &lt;REG_Files_14_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_6_30</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">11 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_6_27&gt; &lt;REG_Files_6_26&gt; &lt;REG_Files_6_23&gt; &lt;REG_Files_6_22&gt; &lt;REG_Files_6_19&gt; &lt;REG_Files_6_15&gt; &lt;REG_Files_6_11&gt; &lt;REG_Files_6_8&gt; &lt;REG_Files_6_7&gt; &lt;REG_Files_6_2&gt; &lt;REG_Files_6_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_13_25</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_13_21&gt; &lt;REG_Files_13_20&gt; &lt;REG_Files_13_9&gt; &lt;REG_Files_13_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_14_25</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_14_21&gt; &lt;REG_Files_14_20&gt; &lt;REG_Files_14_9&gt; &lt;REG_Files_14_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_6_29</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_6_24&gt; &lt;REG_Files_6_17&gt; &lt;REG_Files_6_13&gt; &lt;REG_Files_6_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_13_18</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">6 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_13_14&gt; &lt;REG_Files_13_10&gt; &lt;REG_Files_13_12&gt; &lt;REG_Files_13_6&gt; &lt;REG_Files_13_4&gt; &lt;REG_Files_13_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_14_18</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">6 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_14_14&gt; &lt;REG_Files_14_12&gt; &lt;REG_Files_14_10&gt; &lt;REG_Files_14_6&gt; &lt;REG_Files_14_4&gt; &lt;REG_Files_14_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_28_30</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">11 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_28_27&gt; &lt;REG_Files_28_26&gt; &lt;REG_Files_28_23&gt; &lt;REG_Files_28_22&gt; &lt;REG_Files_28_19&gt; &lt;REG_Files_28_15&gt; &lt;REG_Files_28_11&gt; &lt;REG_Files_28_8&gt; &lt;REG_Files_28_7&gt; &lt;REG_Files_28_2&gt; &lt;REG_Files_28_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_6_25</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_6_21&gt; &lt;REG_Files_6_20&gt; &lt;REG_Files_6_9&gt; &lt;REG_Files_6_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_6_18</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">6 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_6_14&gt; &lt;REG_Files_6_12&gt; &lt;REG_Files_6_10&gt; &lt;REG_Files_6_4&gt; &lt;REG_Files_6_6&gt; &lt;REG_Files_6_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_28_29</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_28_24&gt; &lt;REG_Files_28_17&gt; &lt;REG_Files_28_13&gt; &lt;REG_Files_28_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_28_25</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_28_21&gt; &lt;REG_Files_28_20&gt; &lt;REG_Files_28_9&gt; &lt;REG_Files_28_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_28_18</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">6 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_28_14&gt; &lt;REG_Files_28_12&gt; &lt;REG_Files_28_10&gt; &lt;REG_Files_28_6&gt; &lt;REG_Files_28_4&gt; &lt;REG_Files_28_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_12_30</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">11 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_12_27&gt; &lt;REG_Files_12_26&gt; &lt;REG_Files_12_23&gt; &lt;REG_Files_12_22&gt; &lt;REG_Files_12_19&gt; &lt;REG_Files_12_15&gt; &lt;REG_Files_12_11&gt; &lt;REG_Files_12_8&gt; &lt;REG_Files_12_7&gt; &lt;REG_Files_12_2&gt; &lt;REG_Files_12_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_12_29</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_12_24&gt; &lt;REG_Files_12_17&gt; &lt;REG_Files_12_13&gt; &lt;REG_Files_12_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_5_30</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">11 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_5_27&gt; &lt;REG_Files_5_26&gt; &lt;REG_Files_5_23&gt; &lt;REG_Files_5_22&gt; &lt;REG_Files_5_19&gt; &lt;REG_Files_5_15&gt; &lt;REG_Files_5_11&gt; &lt;REG_Files_5_8&gt; &lt;REG_Files_5_7&gt; &lt;REG_Files_5_2&gt; &lt;REG_Files_5_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_4_30</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">11 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_4_27&gt; &lt;REG_Files_4_26&gt; &lt;REG_Files_4_23&gt; &lt;REG_Files_4_22&gt; &lt;REG_Files_4_19&gt; &lt;REG_Files_4_15&gt; &lt;REG_Files_4_11&gt; &lt;REG_Files_4_8&gt; &lt;REG_Files_4_7&gt; &lt;REG_Files_4_2&gt; &lt;REG_Files_4_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_3_30</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">11 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_3_27&gt; &lt;REG_Files_3_26&gt; &lt;REG_Files_3_23&gt; &lt;REG_Files_3_22&gt; &lt;REG_Files_3_19&gt; &lt;REG_Files_3_15&gt; &lt;REG_Files_3_11&gt; &lt;REG_Files_3_8&gt; &lt;REG_Files_3_7&gt; &lt;REG_Files_3_2&gt; &lt;REG_Files_3_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_26_30</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">11 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_26_27&gt; &lt;REG_Files_26_26&gt; &lt;REG_Files_26_23&gt; &lt;REG_Files_26_22&gt; &lt;REG_Files_26_19&gt; &lt;REG_Files_26_15&gt; &lt;REG_Files_26_11&gt; &lt;REG_Files_26_8&gt; &lt;REG_Files_26_7&gt; &lt;REG_Files_26_2&gt; &lt;REG_Files_26_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_20_30</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">11 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_20_27&gt; &lt;REG_Files_20_26&gt; &lt;REG_Files_20_23&gt; &lt;REG_Files_20_22&gt; &lt;REG_Files_20_19&gt; &lt;REG_Files_20_15&gt; &lt;REG_Files_20_11&gt; &lt;REG_Files_20_8&gt; &lt;REG_Files_20_7&gt; &lt;REG_Files_20_2&gt; &lt;REG_Files_20_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_12_25</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_12_21&gt; &lt;REG_Files_12_20&gt; &lt;REG_Files_12_9&gt; &lt;REG_Files_12_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_3_29</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_3_24&gt; &lt;REG_Files_3_17&gt; &lt;REG_Files_3_13&gt; &lt;REG_Files_3_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_5_29</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_5_24&gt; &lt;REG_Files_5_17&gt; &lt;REG_Files_5_13&gt; &lt;REG_Files_5_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_4_29</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_4_24&gt; &lt;REG_Files_4_17&gt; &lt;REG_Files_4_13&gt; &lt;REG_Files_4_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_20_29</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_20_24&gt; &lt;REG_Files_20_17&gt; &lt;REG_Files_20_13&gt; &lt;REG_Files_20_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_26_29</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_26_24&gt; &lt;REG_Files_26_17&gt; &lt;REG_Files_26_13&gt; &lt;REG_Files_26_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_12_18</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">6 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_12_14&gt; &lt;REG_Files_12_12&gt; &lt;REG_Files_12_10&gt; &lt;REG_Files_12_6&gt; &lt;REG_Files_12_4&gt; &lt;REG_Files_12_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_3_25</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_3_21&gt; &lt;REG_Files_3_20&gt; &lt;REG_Files_3_9&gt; &lt;REG_Files_3_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_5_25</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_5_21&gt; &lt;REG_Files_5_20&gt; &lt;REG_Files_5_9&gt; &lt;REG_Files_5_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_4_25</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_4_21&gt; &lt;REG_Files_4_20&gt; &lt;REG_Files_4_9&gt; &lt;REG_Files_4_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_20_25</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_20_21&gt; &lt;REG_Files_20_20&gt; &lt;REG_Files_20_9&gt; &lt;REG_Files_20_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_26_25</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_26_21&gt; &lt;REG_Files_26_20&gt; &lt;REG_Files_26_9&gt; &lt;REG_Files_26_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_3_18</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">6 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_3_14&gt; &lt;REG_Files_3_12&gt; &lt;REG_Files_3_10&gt; &lt;REG_Files_3_6&gt; &lt;REG_Files_3_4&gt; &lt;REG_Files_3_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_5_18</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">6 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_5_14&gt; &lt;REG_Files_5_12&gt; &lt;REG_Files_5_10&gt; &lt;REG_Files_5_6&gt; &lt;REG_Files_5_3&gt; &lt;REG_Files_5_4&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_4_18</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">6 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_4_14&gt; &lt;REG_Files_4_12&gt; &lt;REG_Files_4_10&gt; &lt;REG_Files_4_6&gt; &lt;REG_Files_4_3&gt; &lt;REG_Files_4_4&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_2_30</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">11 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_2_27&gt; &lt;REG_Files_2_26&gt; &lt;REG_Files_2_23&gt; &lt;REG_Files_2_22&gt; &lt;REG_Files_2_19&gt; &lt;REG_Files_2_15&gt; &lt;REG_Files_2_11&gt; &lt;REG_Files_2_8&gt; &lt;REG_Files_2_7&gt; &lt;REG_Files_2_2&gt; &lt;REG_Files_2_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_20_18</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">6 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_20_14&gt; &lt;REG_Files_20_12&gt; &lt;REG_Files_20_10&gt; &lt;REG_Files_20_6&gt; &lt;REG_Files_20_4&gt; &lt;REG_Files_20_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_26_18</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">6 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_26_14&gt; &lt;REG_Files_26_12&gt; &lt;REG_Files_26_10&gt; &lt;REG_Files_26_6&gt; &lt;REG_Files_26_4&gt; &lt;REG_Files_26_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_23_30</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">11 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_23_27&gt; &lt;REG_Files_23_26&gt; &lt;REG_Files_23_23&gt; &lt;REG_Files_23_22&gt; &lt;REG_Files_23_19&gt; &lt;REG_Files_23_15&gt; &lt;REG_Files_23_11&gt; &lt;REG_Files_23_8&gt; &lt;REG_Files_23_7&gt; &lt;REG_Files_23_2&gt; &lt;REG_Files_23_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_17_30</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">11 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_17_27&gt; &lt;REG_Files_17_26&gt; &lt;REG_Files_17_23&gt; &lt;REG_Files_17_22&gt; &lt;REG_Files_17_19&gt; &lt;REG_Files_17_15&gt; &lt;REG_Files_17_11&gt; &lt;REG_Files_17_8&gt; &lt;REG_Files_17_7&gt; &lt;REG_Files_17_2&gt; &lt;REG_Files_17_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">REG_Files_2_29</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">jicunqi</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;REG_Files_2_24&gt; &lt;REG_Files_2_17&gt; &lt;REG_Files_2_13&gt; &lt;REG_Files_2_1&gt; </arg>
+</msg>
+
+</messages>
+

@@ -1,0 +1,4 @@
+verilog work "jicunqi.v"
+verilog work "ipcore_dir/RAM_B.v"
+verilog work "ALU.v"
+verilog work "CPU.v"

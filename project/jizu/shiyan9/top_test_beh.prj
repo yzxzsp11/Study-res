@@ -1,0 +1,8 @@
+verilog work "ROM_B.v"
+verilog work "jicunqi.v"
+verilog work "ALU.v"
+verilog work "test.v"
+verilog work "CPU.v"
+verilog work "top.v"
+verilog work "top_test.v"
+verilog work "D:/Xilinx/14.6/ISE_DS/ISE//verilog/src/glbl.v"

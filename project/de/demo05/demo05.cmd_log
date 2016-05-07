@@ -1,0 +1,11 @@
+xst -intstyle ise -ifn "D:/ISE/project/demo05/demo05.xst" -ofn "D:/ISE/project/demo05/demo05.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc demo05_C.ucf -p xc6slx16-csg324-3 demo05.ngc demo05.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o demo05_map.ncd demo05.ngd demo05.pcf 
+par -w -intstyle ise -ol high -mt off demo05_map.ncd demo05.ncd demo05.pcf 
+xst -intstyle ise -ifn "D:/ISE/project/demo05/demo05.xst" -ofn "D:/ISE/project/demo05/demo05.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc demo05_C.ucf -p xc6slx16-csg324-3 demo05.ngc demo05.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o demo05_map.ncd demo05.ngd demo05.pcf 
+par -w -intstyle ise -ol high -mt off demo05_map.ncd demo05.ncd demo05.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml demo05.twx demo05.ncd -o demo05.twr demo05.pcf -ucf demo05_C.ucf 
+bitgen -intstyle ise -f demo05.ut demo05.ncd 
+xst -intstyle ise -ifn "D:/ISE/project/demo05/demo05.xst" -ofn "D:/ISE/project/demo05/demo05.syr" 

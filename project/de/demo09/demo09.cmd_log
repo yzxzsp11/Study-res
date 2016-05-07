@@ -1,0 +1,40 @@
+xst -intstyle ise -ifn "D:/ISE/project/demo09/demo09.xst" -ofn "D:/ISE/project/demo09/demo09.syr" 
+xst -intstyle ise -ifn "D:/ISE/project/demo09/demo09.xst" -ofn "D:/ISE/project/demo09/demo09.syr" 
+xst -intstyle ise -ifn "D:/ISE/project/demo09/demo09.xst" -ofn "D:/ISE/project/demo09/demo09.syr" 
+xst -intstyle ise -ifn "D:/ISE/project/demo09/demo09.xst" -ofn "D:/ISE/project/demo09/demo09.syr" 
+xst -intstyle ise -ifn "D:/ISE/project/demo09/demo09.xst" -ofn "D:/ISE/project/demo09/demo09.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 demo09.ngc demo09.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o demo09_map.ncd demo09.ngd demo09.pcf 
+par -w -intstyle ise -ol high -mt off demo09_map.ncd demo09.ncd demo09.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml demo09.twx demo09.ncd -o demo09.twr demo09.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 demo09.ngc demo09.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o demo09_map.ncd demo09.ngd demo09.pcf 
+par -w -intstyle ise -ol high -mt off demo09_map.ncd demo09.ncd demo09.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml demo09.twx demo09.ncd -o demo09.twr demo09.pcf 
+bitgen -intstyle ise -f demo09.ut demo09.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc demo09_C.ucf -p xc6slx16-csg324-3 demo09.ngc demo09.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o demo09_map.ncd demo09.ngd demo09.pcf 
+xst -intstyle ise -ifn "D:/ISE/project/demo09/demo09.xst" -ofn "D:/ISE/project/demo09/demo09.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc demo09_C.ucf -p xc6slx16-csg324-3 demo09.ngc demo09.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o demo09_map.ncd demo09.ngd demo09.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc demo09_C.ucf -p xc6slx16-csg324-3 demo09.ngc demo09.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o demo09_map.ncd demo09.ngd demo09.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc demo09_C.ucf -p xc6slx16-csg324-3 demo09.ngc demo09.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o demo09_map.ncd demo09.ngd demo09.pcf 
+xst -intstyle ise -ifn "D:/ISE/project/demo09/demo09.xst" -ofn "D:/ISE/project/demo09/demo09.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc demo09_C.ucf -p xc6slx16-csg324-3 demo09.ngc demo09.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o demo09_map.ncd demo09.ngd demo09.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc demo09_C.ucf -p xc6slx16-csg324-3 demo09.ngc demo09.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o demo09_map.ncd demo09.ngd demo09.pcf 
+xst -intstyle ise -ifn "D:/ISE/project/demo09/demo09.xst" -ofn "D:/ISE/project/demo09/demo09.syr" 
+xst -intstyle ise -ifn "D:/ISE/project/demo09/demo09.xst" -ofn "D:/ISE/project/demo09/demo09.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc demo09_C.ucf -p xc6slx16-csg324-3 demo09.ngc demo09.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o demo09_map.ncd demo09.ngd demo09.pcf 
+xst -intstyle ise -ifn "D:/ISE/project/demo09/demo09.xst" -ofn "D:/ISE/project/demo09/demo09.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc demo09_C.ucf -p xc6slx16-csg324-3 demo09.ngc demo09.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o demo09_map.ncd demo09.ngd demo09.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc demo09_C.ucf -p xc6slx16-csg324-3 demo09.ngc demo09.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o demo09_map.ncd demo09.ngd demo09.pcf 
+par -w -intstyle ise -ol high -mt off demo09_map.ncd demo09.ncd demo09.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml demo09.twx demo09.ncd -o demo09.twr demo09.pcf -ucf demo09_C.ucf 
+bitgen -intstyle ise -f demo09.ut demo09.ncd 

@@ -1,0 +1,4 @@
+verilog work "RegisterFile.v"
+verilog work "Test_RigisterFile.v"
+verilog work "test.v"
+verilog work "D:/Profassional_tools/ISE/14.7/ISE_DS/ISE//verilog/src/glbl.v"

@@ -1,0 +1,13 @@
+NET "MR" 	LOC="V9";
+NET "load" 	LOC="T9";
+NET "EN" 	LOC="T10";
+NET "CLK" 	LOC="D9";
+NET "D[3]" 	LOC="T5";
+NET "D[2]"	LOC="V8";
+NET "D[1]" 	LOC="U8";
+NET "D[0]" 	LOC="N8";
+NET "Q[3]" 	LOC="T11";
+NET "Q[2]" 	LOC="R11";
+NET "Q[1]" 	LOC="N11";
+NET "Q[0]" 	LOC="M11";
+NET "CO" 	LOC="U16";

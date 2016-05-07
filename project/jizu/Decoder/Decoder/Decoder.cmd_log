@@ -1,0 +1,19 @@
+xst -intstyle ise -ifn "D:/Xilinx/Decoder/Decoder.xst" -ofn "D:/Xilinx/Decoder/Decoder.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim Decoder.ngc Decoder_synthesis.v 
+xst -intstyle ise -ifn "D:/Xilinx/Decoder/Decoder.xst" -ofn "D:/Xilinx/Decoder/Decoder.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim Decoder.ngc Decoder_synthesis.v 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim Decoder.ngc Decoder_synthesis.v 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim Decoder.ngc Decoder_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Decoder_M.ucf -p xc6slx16-csg324-3 Decoder.ngc Decoder.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Decoder_map.ncd Decoder.ngd Decoder.pcf 
+par -w -intstyle ise -ol high -mt off Decoder_map.ncd Decoder.ncd Decoder.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Decoder.twx Decoder.ncd -o Decoder.twr Decoder.pcf -ucf Decoder_M.ucf 
+bitgen -intstyle ise -f Decoder.ut Decoder.ncd 
+bitgen -intstyle ise -f Decoder.ut Decoder.ncd 
+xst -intstyle ise -ifn "D:/Xilinx/Decoder/Decoder.xst" -ofn "D:/Xilinx/Decoder/Decoder.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim Decoder.ngc Decoder_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc Decoder_M.ucf -p xc6slx16-csg324-3 Decoder.ngc Decoder.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Decoder_map.ncd Decoder.ngd Decoder.pcf 
+par -w -intstyle ise -ol high -mt off Decoder_map.ncd Decoder.ncd Decoder.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Decoder.twx Decoder.ncd -o Decoder.twr Decoder.pcf -ucf Decoder_M.ucf 
+bitgen -intstyle ise -f Decoder.ut Decoder.ncd 
