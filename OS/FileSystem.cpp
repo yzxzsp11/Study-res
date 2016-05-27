@@ -894,7 +894,7 @@ int main()
                     break;
                 }
             }
-            //			printf("%d\n", cmdn);
+            
             switch(cmdn)
             {
                 case 0:
