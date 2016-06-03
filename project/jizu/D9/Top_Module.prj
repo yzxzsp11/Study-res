@@ -1,0 +1,8 @@
+verilog work "ipcore_dir/OP_Memory.v"
+verilog work "Register.v"
+verilog work "PC.v"
+verilog work "ipcore_dir/Data_Memory.v"
+verilog work "ALU.v"
+verilog work "CPU.v"
+verilog work "BTN.v"
+verilog work "Top_Module.v"

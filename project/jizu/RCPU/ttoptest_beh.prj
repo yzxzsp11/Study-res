@@ -1,0 +1,7 @@
+verilog work "Register.v"
+verilog work "ipcore_dir/Ins_ROM.v"
+verilog work "ALU.v"
+verilog work "CPU.v"
+verilog work "TopTest.v"
+verilog work "ttoptest.v"
+verilog work "C:/ISE/14.6/ISE_DS/ISE//verilog/src/glbl.v"

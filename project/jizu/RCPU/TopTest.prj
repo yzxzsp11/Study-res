@@ -1,0 +1,6 @@
+verilog work "Register.v"
+verilog work "ipcore_dir/Ins_ROM.v"
+verilog work "ALU.v"
+verilog work "CPU.v"
+verilog work "BTN_OK.v"
+verilog work "TopTest.v"

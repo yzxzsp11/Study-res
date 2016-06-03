@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "G:/isefiles/RCPU/ALU.xst" -ofn "G:/isefiles/RCPU/ALU.syr" 

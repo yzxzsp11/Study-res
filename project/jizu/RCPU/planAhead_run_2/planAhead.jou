@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# PlanAhead v14.6 (64-bit)
+# Build 269223 by xbuild on Wed Jun  5 11:14:03 MDT 2013
+# Start of session at: Mon May 16 19:29:54 2016
+# Process ID: 1932
+# Log file: G:/isefiles/RCPU/planAhead_run_2/planAhead.log
+# Journal file: G:/isefiles/RCPU/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source G:/isefiles/RCPU/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin V10 [get_ports clk_100MHz]
+endgroup
+startgroup
+set_property package_pin C9 [get_ports btn]
+endgroup
+set_property is_loc_fixed false [get_ports [list  btn]]
+set_property is_loc_fixed true [get_ports [list  btn]]
+save_constraints

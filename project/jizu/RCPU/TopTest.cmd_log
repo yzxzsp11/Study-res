@@ -1,0 +1,103 @@
+xst -intstyle ise -ifn "G:/isefiles/RCPU/TopTest.xst" -ofn "G:/isefiles/RCPU/TopTest.syr" 
+xst -intstyle ise -ifn "G:/isefiles/RCPU/TopTest.xst" -ofn "G:/isefiles/RCPU/TopTest.syr" 
+xst -intstyle ise -ifn "G:/isefiles/RCPU/TopTest.xst" -ofn "G:/isefiles/RCPU/TopTest.syr" 
+xst -intstyle ise -ifn "G:/isefiles/RCPU/TopTest.xst" -ofn "G:/isefiles/RCPU/TopTest.syr" 
+xst -intstyle ise -ifn "G:/isefiles/RCPU/TopTest.xst" -ofn "G:/isefiles/RCPU/TopTest.syr" 
+xst -intstyle ise -ifn "G:/isefiles/RCPU/TopTest.xst" -ofn "G:/isefiles/RCPU/TopTest.syr" 
+xst -intstyle ise -ifn "G:/isefiles/RCPU/TopTest.xst" -ofn "G:/isefiles/RCPU/TopTest.syr" 
+xst -intstyle ise -ifn "G:/isefiles/RCPU/TopTest.xst" -ofn "G:/isefiles/RCPU/TopTest.syr" 
+xst -intstyle ise -ifn "G:/isefiles/RCPU/TopTest.xst" -ofn "G:/isefiles/RCPU/TopTest.syr" 
+xst -intstyle ise -ifn "G:/isefiles/RCPU/TopTest.xst" -ofn "G:/isefiles/RCPU/TopTest.syr" 
+xst -intstyle ise -ifn "G:/isefiles/RCPU/TopTest.xst" -ofn "G:/isefiles/RCPU/TopTest.syr" 
+xst -intstyle ise -ifn "G:/isefiles/RCPU/TopTest.xst" -ofn "G:/isefiles/RCPU/TopTest.syr" 
+xst -intstyle ise -ifn "G:/isefiles/RCPU/TopTest.xst" -ofn "G:/isefiles/RCPU/TopTest.syr" 
+xst -intstyle ise -ifn "G:/isefiles/RCPU/TopTest.xst" -ofn "G:/isefiles/RCPU/TopTest.syr" 
+xst -intstyle ise -ifn "G:/isefiles/RCPU/TopTest.xst" -ofn "G:/isefiles/RCPU/TopTest.syr" 
+xst -intstyle ise -ifn "G:/isefiles/RCPU/TopTest.xst" -ofn "G:/isefiles/RCPU/TopTest.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim TopTest.ngc TopTest_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc TopTest.ucf -p xc6slx16-csg324-3 TopTest.ngc TopTest.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopTest_map.ncd TopTest.ngd TopTest.pcf 
+par -w -intstyle ise -ol high -mt off TopTest_map.ncd TopTest.ncd TopTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml TopTest.twx TopTest.ncd -o TopTest.twr TopTest.pcf -ucf TopTest.ucf 
+bitgen -intstyle ise -f TopTest.ut TopTest.ncd 
+xst -intstyle ise -ifn "G:/isefiles/RCPU/TopTest.xst" -ofn "G:/isefiles/RCPU/TopTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc TopTest.ucf -p xc6slx16-csg324-3 TopTest.ngc TopTest.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc TopTest.ucf -p xc6slx16-csg324-3 TopTest.ngc TopTest.ngd  
+xst -intstyle ise -ifn "G:/isefiles/RCPU/TopTest.xst" -ofn "G:/isefiles/RCPU/TopTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc TopTest.ucf -p xc6slx16-csg324-3 TopTest.ngc TopTest.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopTest_map.ncd TopTest.ngd TopTest.pcf 
+par -w -intstyle ise -ol high -mt off TopTest_map.ncd TopTest.ncd TopTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml TopTest.twx TopTest.ncd -o TopTest.twr TopTest.pcf -ucf TopTest.ucf 
+bitgen -intstyle ise -f TopTest.ut TopTest.ncd 
+bitgen -intstyle ise -f TopTest.ut TopTest.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc TopTest.ucf -p xc6slx16-csg324-3 TopTest.ngc TopTest.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopTest_map.ncd TopTest.ngd TopTest.pcf 
+par -w -intstyle ise -ol high -mt off TopTest_map.ncd TopTest.ncd TopTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml TopTest.twx TopTest.ncd -o TopTest.twr TopTest.pcf -ucf TopTest.ucf 
+bitgen -intstyle ise -f TopTest.ut TopTest.ncd 
+xst -intstyle ise -ifn "G:/isefiles/RCPU/TopTest.xst" -ofn "G:/isefiles/RCPU/TopTest.syr" 
+xst -intstyle ise -ifn "G:/isefiles/RCPU/TopTest.xst" -ofn "G:/isefiles/RCPU/TopTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc TopTest.ucf -p xc6slx16-csg324-3 TopTest.ngc TopTest.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopTest_map.ncd TopTest.ngd TopTest.pcf 
+par -w -intstyle ise -ol high -mt off TopTest_map.ncd TopTest.ncd TopTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml TopTest.twx TopTest.ncd -o TopTest.twr TopTest.pcf -ucf TopTest.ucf 
+bitgen -intstyle ise -f TopTest.ut TopTest.ncd 
+xst -intstyle ise -ifn "G:/isefiles/RCPU/TopTest.xst" -ofn "G:/isefiles/RCPU/TopTest.syr" 
+xst -intstyle ise -ifn "G:/isefiles/RCPU/TopTest.xst" -ofn "G:/isefiles/RCPU/TopTest.syr" 
+xst -intstyle ise -ifn "G:/isefiles/RCPU/TopTest.xst" -ofn "G:/isefiles/RCPU/TopTest.syr" 
+xst -intstyle ise -ifn "G:/isefiles/RCPU/TopTest.xst" -ofn "G:/isefiles/RCPU/TopTest.syr" 
+xst -intstyle ise -ifn "G:/isefiles/RCPU/TopTest.xst" -ofn "G:/isefiles/RCPU/TopTest.syr" 
+xst -intstyle ise -ifn "G:/isefiles/RCPU/TopTest.xst" -ofn "G:/isefiles/RCPU/TopTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc TopTest.ucf -p xc6slx16-csg324-3 TopTest.ngc TopTest.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc TopTest.ucf -p xc6slx16-csg324-3 TopTest.ngc TopTest.ngd  
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim TopTest.ngc TopTest_synthesis.v 
+xst -intstyle ise -ifn "F:/ISE_Project/RCPU/TopTest.xst" -ofn "F:/ISE_Project/RCPU/TopTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc TopTest.ucf -p xc6slx16-csg324-3 TopTest.ngc TopTest.ngd  
+xst -intstyle ise -ifn "F:/ISE_Project/RCPU/TopTest.xst" -ofn "F:/ISE_Project/RCPU/TopTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc TopTest.ucf -p xc6slx16-csg324-3 TopTest.ngc TopTest.ngd  
+xst -intstyle ise -ifn "F:/ISE_Project/RCPU/TopTest.xst" -ofn "F:/ISE_Project/RCPU/TopTest.syr" 
+xst -intstyle ise -ifn "F:/ISE_Project/RCPU/TopTest.xst" -ofn "F:/ISE_Project/RCPU/TopTest.syr" 
+xst -intstyle ise -ifn "F:/ISE_Project/RCPU/TopTest.xst" -ofn "F:/ISE_Project/RCPU/TopTest.syr" 
+xst -intstyle ise -ifn "F:/ISE_Project/RCPU/TopTest.xst" -ofn "F:/ISE_Project/RCPU/TopTest.syr" 
+xst -intstyle ise -ifn "F:/ISE_Project/RCPU/TopTest.xst" -ofn "F:/ISE_Project/RCPU/TopTest.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc TopTest.ucf -p xc6slx16-csg324-3 TopTest.ngc TopTest.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopTest_map.ncd TopTest.ngd TopTest.pcf 
+par -w -intstyle ise -ol high -mt off TopTest_map.ncd TopTest.ncd TopTest.pcf 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc TopTest.ucf -p xc6slx16-csg324-3 TopTest.ngc TopTest.ngd  
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml TopTest.twx TopTest.ncd -o TopTest.twr TopTest.pcf -ucf TopTest.ucf 
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopTest_map.ncd TopTest.ngd TopTest.pcf 
+bitgen -intstyle ise -f TopTest.ut TopTest.ncd 
+par -w -intstyle ise -ol high -mt off TopTest_map.ncd TopTest.ncd TopTest.pcf 
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopTest_map.ncd TopTest.ngd TopTest.pcf 
+par -w -intstyle ise -ol high -mt off TopTest_map.ncd TopTest.ncd TopTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml TopTest.twx TopTest.ncd -o TopTest.twr TopTest.pcf -ucf TopTest.ucf 
+bitgen -intstyle ise -f TopTest.ut TopTest.ncd 
+bitgen -intstyle ise -f TopTest.ut TopTest.ncd 
+xst -intstyle ise -ifn "F:/ISE_Project/RCPU/TopTest.xst" -ofn "F:/ISE_Project/RCPU/TopTest.syr" 
+xst -intstyle ise -ifn "F:/ISE_Project/RCPU/TopTest.xst" -ofn "F:/ISE_Project/RCPU/TopTest.syr" 
+xst -intstyle ise -ifn "F:/ISE_Project/RCPU/TopTest.xst" -ofn "F:/ISE_Project/RCPU/TopTest.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim TopTest.ngc TopTest_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc TopTest.ucf -p xc6slx16-csg324-3 TopTest.ngc TopTest.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopTest_map.ncd TopTest.ngd TopTest.pcf 
+par -w -intstyle ise -ol high -mt off TopTest_map.ncd TopTest.ncd TopTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml TopTest.twx TopTest.ncd -o TopTest.twr TopTest.pcf -ucf TopTest.ucf 
+bitgen -intstyle ise -f TopTest.ut TopTest.ncd 
+xst -intstyle ise -ifn "C:/Users/yyp/Desktop/RCPU/TopTest.xst" -ofn "C:/Users/yyp/Desktop/RCPU/TopTest.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim TopTest.ngc TopTest_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc TopTest.ucf -p xc6slx16-csg324-3 TopTest.ngc TopTest.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopTest_map.ncd TopTest.ngd TopTest.pcf 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc TopTest.ucf -p xc6slx16-csg324-3 TopTest.ngc TopTest.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopTest_map.ncd TopTest.ngd TopTest.pcf 
+xst -intstyle ise -ifn "C:/Users/yyp/Desktop/RCPU/TopTest.xst" -ofn "C:/Users/yyp/Desktop/RCPU/TopTest.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim TopTest.ngc TopTest_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc TopTest.ucf -p xc6slx16-csg324-3 TopTest.ngc TopTest.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopTest_map.ncd TopTest.ngd TopTest.pcf 
+par -w -intstyle ise -ol high -mt off TopTest_map.ncd TopTest.ncd TopTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml TopTest.twx TopTest.ncd -o TopTest.twr TopTest.pcf -ucf TopTest.ucf 
+xst -intstyle ise -ifn "C:/Users/yyp/Desktop/RCPU/TopTest.xst" -ofn "C:/Users/yyp/Desktop/RCPU/TopTest.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim TopTest.ngc TopTest_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc TopTest.ucf -p xc6slx16-csg324-3 TopTest.ngc TopTest.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o TopTest_map.ncd TopTest.ngd TopTest.pcf 
+par -w -intstyle ise -ol high -mt off TopTest_map.ncd TopTest.ncd TopTest.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml TopTest.twx TopTest.ncd -o TopTest.twr TopTest.pcf -ucf TopTest.ucf 
+bitgen -intstyle ise -f TopTest.ut TopTest.ncd 

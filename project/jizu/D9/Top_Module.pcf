@@ -1,0 +1,24 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Mon May 23 19:59:33 2016
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "rst" LOCATE = SITE "C9" LEVEL 1;
+COMP "clk_100MHz" LOCATE = SITE "V10" LEVEL 1;
+PIN clk_100MHz_pin<0> = BEL "clk_100MHz" PINNAME PAD;
+PIN "clk_100MHz_pin<0>" CLOCK_DEDICATED_ROUTE = FALSE;
+COMP "SW<0>" LOCATE = SITE "M8" LEVEL 1;
+COMP "SW<1>" LOCATE = SITE "N8" LEVEL 1;
+COMP "SW<2>" LOCATE = SITE "U8" LEVEL 1;
+COMP "SW<3>" LOCATE = SITE "V8" LEVEL 1;
+COMP "LED<0>" LOCATE = SITE "U16" LEVEL 1;
+COMP "LED<1>" LOCATE = SITE "V16" LEVEL 1;
+COMP "LED<2>" LOCATE = SITE "U15" LEVEL 1;
+COMP "LED<3>" LOCATE = SITE "V15" LEVEL 1;
+COMP "LED<4>" LOCATE = SITE "M11" LEVEL 1;
+COMP "LED<5>" LOCATE = SITE "N11" LEVEL 1;
+COMP "LED<6>" LOCATE = SITE "R11" LEVEL 1;
+COMP "LED<7>" LOCATE = SITE "T11" LEVEL 1;
+COMP "Setup_BTN" LOCATE = SITE "D9" LEVEL 1;
+SCHEMATIC END;
+

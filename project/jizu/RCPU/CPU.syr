@@ -1,0 +1,451 @@
+Release 14.6 - xst P.68d (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Reading design: CPU.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "CPU.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "CPU"
+Output Format                      : NGC
+Target Device                      : xc6slx16-3-csg324
+
+---- Source Options
+Top Module Name                    : CPU
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+Cores Search Directories           : {"ipcore_dir"  }
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "G:\isefiles\RCPU\Register.v" into library work
+Parsing module <Register>.
+Analyzing Verilog file "G:\isefiles\RCPU\ipcore_dir\Ins_ROM.v" into library work
+Parsing module <Ins_ROM>.
+Analyzing Verilog file "G:\isefiles\RCPU\ALU.v" into library work
+Parsing module <ALU>.
+Analyzing Verilog file "G:\isefiles\RCPU\CPU.v" into library work
+Parsing module <CPU>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <CPU>.
+WARNING:HDLCompiler:1127 - "G:\isefiles\RCPU\CPU.v" Line 42: Assignment to shamt ignored, since the identifier is never used
+
+Elaborating module <Ins_ROM>.
+WARNING:HDLCompiler:1499 - "G:\isefiles\RCPU\ipcore_dir\Ins_ROM.v" Line 39: Empty module <Ins_ROM> remains a black box.
+
+Elaborating module <Register>.
+WARNING:HDLCompiler:1127 - "G:\isefiles\RCPU\CPU.v" Line 51: Assignment to R_Data_A ignored, since the identifier is never used
+
+Elaborating module <ALU>.
+WARNING:HDLCompiler:189 - "G:\isefiles\RCPU\CPU.v" Line 53: Size mismatch in connection of port <A>. Formal port size is 32-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:634 - "G:\isefiles\RCPU\CPU.v" Line 53: Net <A> does not have a driver.
+WARNING:Xst:2972 - "G:\isefiles\RCPU\CPU.v" line 51. All outputs of instance <register> of block <Register> are unconnected in block <CPU>. Underlying logic will be removed.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <CPU>.
+    Related source file is "G:\isefiles\RCPU\CPU.v".
+INFO:Xst:3210 - "G:\isefiles\RCPU\CPU.v" line 51: Output port <R_Data_A> of the instance <register> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "G:\isefiles\RCPU\CPU.v" line 51: Output port <R_Data_B> of the instance <register> is unconnected or connected to loadless signal.
+WARNING:Xst:653 - Signal <A> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <B> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+    Found 32-bit register for signal <PC>.
+    Found 3-bit register for signal <ALU_OP>.
+    Found 32-bit adder for signal <PC[31]_GND_1_o_add_6_OUT> created at line 61.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  35 D-type flip-flop(s).
+Unit <CPU> synthesized.
+
+Synthesizing Unit <ALU>.
+    Related source file is "G:\isefiles\RCPU\ALU.v".
+    Found 32-bit shifter logical left for signal <B[31]_A[31]_shift_left_9_OUT> created at line 44
+    Summary:
+	inferred   4 Multiplexer(s).
+	inferred   1 Combinational logic shifter(s).
+Unit <ALU> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 1
+ 32-bit adder                                          : 1
+# Registers                                            : 2
+ 3-bit register                                        : 1
+ 32-bit register                                       : 1
+# Multiplexers                                         : 4
+ 32-bit 2-to-1 multiplexer                             : 4
+# Logic shifters                                       : 1
+ 32-bit shifter logical left                           : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Reading core <ipcore_dir/Ins_ROM.ngc>.
+Loading core <Ins_ROM> for timing and area information for instance <ins_rom>.
+
+Synthesizing (advanced) Unit <CPU>.
+The following registers are absorbed into accumulator <PC>: 1 register on signal <PC>.
+Unit <CPU> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Accumulators                                         : 1
+ 32-bit up accumulator                                 : 1
+# Registers                                            : 3
+ Flip-Flops                                            : 3
+# Multiplexers                                         : 4
+ 32-bit 2-to-1 multiplexer                             : 4
+# Logic shifters                                       : 1
+ 32-bit shifter logical left                           : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:2677 - Node <PC_0> of sequential type is unconnected in block <CPU>.
+WARNING:Xst:2677 - Node <PC_1> of sequential type is unconnected in block <CPU>.
+WARNING:Xst:2677 - Node <PC_8> of sequential type is unconnected in block <CPU>.
+WARNING:Xst:2677 - Node <PC_9> of sequential type is unconnected in block <CPU>.
+WARNING:Xst:2677 - Node <PC_10> of sequential type is unconnected in block <CPU>.
+WARNING:Xst:2677 - Node <PC_11> of sequential type is unconnected in block <CPU>.
+WARNING:Xst:2677 - Node <PC_12> of sequential type is unconnected in block <CPU>.
+WARNING:Xst:2677 - Node <PC_13> of sequential type is unconnected in block <CPU>.
+WARNING:Xst:2677 - Node <PC_14> of sequential type is unconnected in block <CPU>.
+WARNING:Xst:2677 - Node <PC_15> of sequential type is unconnected in block <CPU>.
+WARNING:Xst:2677 - Node <PC_16> of sequential type is unconnected in block <CPU>.
+WARNING:Xst:2677 - Node <PC_17> of sequential type is unconnected in block <CPU>.
+WARNING:Xst:2677 - Node <PC_18> of sequential type is unconnected in block <CPU>.
+WARNING:Xst:2677 - Node <PC_19> of sequential type is unconnected in block <CPU>.
+WARNING:Xst:2677 - Node <PC_20> of sequential type is unconnected in block <CPU>.
+WARNING:Xst:2677 - Node <PC_21> of sequential type is unconnected in block <CPU>.
+WARNING:Xst:2677 - Node <PC_22> of sequential type is unconnected in block <CPU>.
+WARNING:Xst:2677 - Node <PC_23> of sequential type is unconnected in block <CPU>.
+WARNING:Xst:2677 - Node <PC_24> of sequential type is unconnected in block <CPU>.
+WARNING:Xst:2677 - Node <PC_25> of sequential type is unconnected in block <CPU>.
+WARNING:Xst:2677 - Node <PC_26> of sequential type is unconnected in block <CPU>.
+WARNING:Xst:2677 - Node <PC_27> of sequential type is unconnected in block <CPU>.
+WARNING:Xst:2677 - Node <PC_28> of sequential type is unconnected in block <CPU>.
+WARNING:Xst:2677 - Node <PC_29> of sequential type is unconnected in block <CPU>.
+WARNING:Xst:2677 - Node <PC_30> of sequential type is unconnected in block <CPU>.
+WARNING:Xst:2677 - Node <PC_31> of sequential type is unconnected in block <CPU>.
+
+Optimizing unit <CPU> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block CPU, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 9
+ Flip-Flops                                            : 9
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : CPU.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 30
+#      GND                         : 2
+#      INV                         : 2
+#      LUT1                        : 4
+#      LUT3                        : 5
+#      LUT6                        : 4
+#      MUXCY                       : 5
+#      VCC                         : 2
+#      XORCY                       : 6
+# FlipFlops/Latches                : 9
+#      FDC                         : 6
+#      FDE                         : 3
+# RAMS                             : 1
+#      RAMB8BWER                   : 1
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 35
+#      IBUF                        : 1
+#      OBUF                        : 34
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx16csg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:               9  out of  18224     0%  
+ Number of Slice LUTs:                   15  out of   9112     0%  
+    Number used as Logic:                15  out of   9112     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:     24
+   Number with an unused Flip Flop:      15  out of     24    62%  
+   Number with an unused LUT:             9  out of     24    37%  
+   Number of fully used LUT-FF pairs:     0  out of     24     0%  
+   Number of unique control sets:         2
+
+IO Utilization: 
+ Number of IOs:                          36
+ Number of bonded IOBs:                  36  out of    232    15%  
+
+Specific Feature Utilization:
+ Number of Block RAM/FIFO:                1  out of     32     3%  
+    Number using Block RAM only:          1
+ Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 10    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 3.935ns (Maximum Frequency: 254.123MHz)
+   Minimum input arrival time before clock: 3.521ns
+   Maximum output required time after clock: 5.393ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 3.935ns (frequency: 254.123MHz)
+  Total number of paths / destination ports: 72 / 24
+-------------------------------------------------------------------------
+Delay:               3.935ns (Levels of Logic = 3)
+  Source:            ins_rom/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_init.ram/SP.WIDE_PRIM9.ram (RAM)
+  Destination:       ALU_OP_0 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: ins_rom/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_init.ram/SP.WIDE_PRIM9.ram to ALU_OP_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     RAMB8BWER:CLKBRDCLK->DOBDO10    1   1.850   0.924  U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/s6_init.ram/SP.WIDE_PRIM9.ram (douta<26>)
+     end scope: 'ins_rom:douta<26>'
+     LUT6:I1->O            3   0.203   0.651  _n0101_inv_rstpot (_n0101_inv_rstpot)
+     LUT3:I2->O            1   0.205   0.000  ALU_OP_0_dpot (ALU_OP_0_dpot)
+     FDE:D                     0.102          ALU_OP_0
+    ----------------------------------------
+    Total                      3.935ns (2.360ns logic, 1.575ns route)
+                                       (60.0% logic, 40.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 9 / 9
+-------------------------------------------------------------------------
+Offset:              3.521ns (Levels of Logic = 3)
+  Source:            rst (PAD)
+  Destination:       ALU_OP_0 (FF)
+  Destination Clock: clk rising
+
+  Data Path: rst to ALU_OP_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             7   1.222   1.138  rst_IBUF (rst_IBUF)
+     LUT6:I0->O            3   0.203   0.651  _n0101_inv_rstpot (_n0101_inv_rstpot)
+     LUT3:I2->O            1   0.205   0.000  ALU_OP_0_dpot (ALU_OP_0_dpot)
+     FDE:D                     0.102          ALU_OP_0
+    ----------------------------------------
+    Total                      3.521ns (1.732ns logic, 1.789ns route)
+                                       (49.2% logic, 50.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 99 / 33
+-------------------------------------------------------------------------
+Offset:              5.393ns (Levels of Logic = 2)
+  Source:            ALU_OP_2 (FF)
+  Destination:       ALU_F<31> (PAD)
+  Source Clock:      clk rising
+
+  Data Path: ALU_OP_2 to ALU_F<31>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              3   0.447   0.879  ALU_OP_2 (ALU_OP_2)
+     LUT3:I0->O           32   0.205   1.291  ALU_F<0>1 (ALU_F_0_OBUF)
+     OBUF:I->O                 2.571          ALU_F_31_OBUF (ALU_F<31>)
+    ----------------------------------------
+    Total                      5.393ns (3.223ns logic, 2.170ns route)
+                                       (59.8% logic, 40.2% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    3.935|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 8.00 secs
+Total CPU time to Xst completion: 7.56 secs
+ 
+--> 
+
+Total memory usage is 298376 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   34 (   0 filtered)
+Number of infos    :    2 (   0 filtered)
+

@@ -1,0 +1,166 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+D:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3
+-n 3 -fastpaths -xml Top_Module.twx Top_Module.ncd -o Top_Module.twr
+Top_Module.pcf -ucf qwer.ucf
+
+Design file:              Top_Module.ncd
+Physical constraint file: Top_Module.pcf
+Device,package,speed:     xc6slx16,csg324,C,-3 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock clk_100MHz
+------------+------------+------------+------------+------------+------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+------------+------------+------------+------------+------------+------------------+--------+
+Setup_BTN   |    1.915(R)|      SLOW  |   -0.326(R)|      SLOW  |clk_100MHz_BUFGP  |   0.000|
+------------+------------+------------+------------+------------+------------------+--------+
+
+Clock SW<0> to Pad
+------------+-----------------+------------+-----------------+------------+----------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                      | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)     | Phase  |
+------------+-----------------+------------+-----------------+------------+----------------------+--------+
+LED<0>      |         8.264(F)|      SLOW  |         4.906(F)|      FAST  |SW[3]_GND_16_o_Mux_4_o|   0.000|
+LED<1>      |         8.264(F)|      SLOW  |         4.906(F)|      FAST  |SW[3]_GND_16_o_Mux_4_o|   0.000|
+LED<2>      |         8.062(F)|      SLOW  |         4.815(F)|      FAST  |SW[3]_GND_16_o_Mux_4_o|   0.000|
+LED<3>      |         8.062(F)|      SLOW  |         4.815(F)|      FAST  |SW[3]_GND_16_o_Mux_4_o|   0.000|
+LED<4>      |         7.634(F)|      SLOW  |         4.433(F)|      FAST  |SW[3]_GND_16_o_Mux_4_o|   0.000|
+LED<5>      |         7.634(F)|      SLOW  |         4.433(F)|      FAST  |SW[3]_GND_16_o_Mux_4_o|   0.000|
+LED<6>      |         7.721(F)|      SLOW  |         4.527(F)|      FAST  |SW[3]_GND_16_o_Mux_4_o|   0.000|
+LED<7>      |         7.721(F)|      SLOW  |         4.527(F)|      FAST  |SW[3]_GND_16_o_Mux_4_o|   0.000|
+------------+-----------------+------------+-----------------+------------+----------------------+--------+
+
+Clock SW<1> to Pad
+------------+-----------------+------------+-----------------+------------+----------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                      | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)     | Phase  |
+------------+-----------------+------------+-----------------+------------+----------------------+--------+
+LED<0>      |         7.690(F)|      SLOW  |         4.483(F)|      FAST  |SW[3]_GND_16_o_Mux_4_o|   0.000|
+LED<1>      |         7.690(F)|      SLOW  |         4.483(F)|      FAST  |SW[3]_GND_16_o_Mux_4_o|   0.000|
+LED<2>      |         7.488(F)|      SLOW  |         4.392(F)|      FAST  |SW[3]_GND_16_o_Mux_4_o|   0.000|
+LED<3>      |         7.488(F)|      SLOW  |         4.392(F)|      FAST  |SW[3]_GND_16_o_Mux_4_o|   0.000|
+LED<4>      |         7.060(F)|      SLOW  |         4.010(F)|      FAST  |SW[3]_GND_16_o_Mux_4_o|   0.000|
+LED<5>      |         7.060(F)|      SLOW  |         4.010(F)|      FAST  |SW[3]_GND_16_o_Mux_4_o|   0.000|
+LED<6>      |         7.147(F)|      SLOW  |         4.104(F)|      FAST  |SW[3]_GND_16_o_Mux_4_o|   0.000|
+LED<7>      |         7.147(F)|      SLOW  |         4.104(F)|      FAST  |SW[3]_GND_16_o_Mux_4_o|   0.000|
+------------+-----------------+------------+-----------------+------------+----------------------+--------+
+
+Clock SW<2> to Pad
+------------+-----------------+------------+-----------------+------------+----------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                      | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)     | Phase  |
+------------+-----------------+------------+-----------------+------------+----------------------+--------+
+LED<0>      |         7.888(F)|      SLOW  |         4.540(F)|      FAST  |SW[3]_GND_16_o_Mux_4_o|   0.000|
+LED<1>      |         7.888(F)|      SLOW  |         4.540(F)|      FAST  |SW[3]_GND_16_o_Mux_4_o|   0.000|
+LED<2>      |         7.686(F)|      SLOW  |         4.449(F)|      FAST  |SW[3]_GND_16_o_Mux_4_o|   0.000|
+LED<3>      |         7.686(F)|      SLOW  |         4.449(F)|      FAST  |SW[3]_GND_16_o_Mux_4_o|   0.000|
+LED<4>      |         7.258(F)|      SLOW  |         4.067(F)|      FAST  |SW[3]_GND_16_o_Mux_4_o|   0.000|
+LED<5>      |         7.258(F)|      SLOW  |         4.067(F)|      FAST  |SW[3]_GND_16_o_Mux_4_o|   0.000|
+LED<6>      |         7.345(F)|      SLOW  |         4.161(F)|      FAST  |SW[3]_GND_16_o_Mux_4_o|   0.000|
+LED<7>      |         7.345(F)|      SLOW  |         4.161(F)|      FAST  |SW[3]_GND_16_o_Mux_4_o|   0.000|
+------------+-----------------+------------+-----------------+------------+----------------------+--------+
+
+Clock SW<3> to Pad
+------------+-----------------+------------+-----------------+------------+----------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                      | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)     | Phase  |
+------------+-----------------+------------+-----------------+------------+----------------------+--------+
+LED<0>      |         7.505(F)|      SLOW  |         4.323(F)|      FAST  |SW[3]_GND_16_o_Mux_4_o|   0.000|
+LED<1>      |         7.505(F)|      SLOW  |         4.323(F)|      FAST  |SW[3]_GND_16_o_Mux_4_o|   0.000|
+LED<2>      |         7.303(F)|      SLOW  |         4.232(F)|      FAST  |SW[3]_GND_16_o_Mux_4_o|   0.000|
+LED<3>      |         7.303(F)|      SLOW  |         4.232(F)|      FAST  |SW[3]_GND_16_o_Mux_4_o|   0.000|
+LED<4>      |         6.875(F)|      SLOW  |         3.850(F)|      FAST  |SW[3]_GND_16_o_Mux_4_o|   0.000|
+LED<5>      |         6.875(F)|      SLOW  |         3.850(F)|      FAST  |SW[3]_GND_16_o_Mux_4_o|   0.000|
+LED<6>      |         6.962(F)|      SLOW  |         3.944(F)|      FAST  |SW[3]_GND_16_o_Mux_4_o|   0.000|
+LED<7>      |         6.962(F)|      SLOW  |         3.944(F)|      FAST  |SW[3]_GND_16_o_Mux_4_o|   0.000|
+------------+-----------------+------------+-----------------+------------+----------------------+--------+
+
+Clock to Setup on destination clock SW<0>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+SW<0>          |         |         |    2.297|    2.297|
+SW<1>          |         |         |    4.635|    4.635|
+SW<2>          |         |         |    4.359|    4.359|
+SW<3>          |         |         |    2.678|    2.678|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock SW<1>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+SW<0>          |         |         |    2.845|    2.845|
+SW<1>          |         |         |    5.183|    5.183|
+SW<2>          |         |         |    4.907|    4.907|
+SW<3>          |         |         |    3.226|    3.226|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock SW<2>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+SW<0>          |         |         |    2.660|    2.660|
+SW<1>          |         |         |    4.998|    4.998|
+SW<2>          |         |         |    4.722|    4.722|
+SW<3>          |         |         |    3.041|    3.041|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock SW<3>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+SW<0>          |         |         |    3.016|    3.016|
+SW<1>          |         |         |    5.354|    5.354|
+SW<2>          |         |         |    5.078|    5.078|
+SW<3>          |         |         |    3.397|    3.397|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock clk_100MHz
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk_100MHz     |    2.503|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Analysis completed Mon May 23 20:01:26 2016 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 267 MB
+
+
+

@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\yyp\Desktop\RCPU\TopTest.ncd
+OUTFILE=C:\Users\yyp\Desktop\RCPU\TopTest.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=C:\Users\yyp\Desktop\RCPU
+LICENSE=WebPack
+USER_INFO=__0_0_0
